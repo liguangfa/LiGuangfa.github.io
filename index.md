@@ -22,31 +22,24 @@
 </nav>
 
 
-
 <table>
 	<tbody>
 		<tr>
 			<td width="670">
 				<div id="toptitle">					
-					<h1>Lequan Yu</h1><h1>
+					<h1>Gunagfa Li</h1><h1>
 				</h1></div>
 
-				<h3>Assistant Professor</h3>
 				<p>
-					Rm 226, Run Run Shaw Building<br>
-					Department of Statistics and Actuarial Science<br>
-					The University of Hong Kong <br>
-					Hong Kong<br>
-					<br>
-					Email: lqyu [at] hku [dot] hk
+                        	I am currently a postgraduate student in South China University of Technology (SCUT).
+                    		</p><br>
+				<p>
+					My research topic focus on the detection and monitoring of physiological information through images.
 			
 				</p>
-				<p> <a href="https://scholar.google.com/citations?user=llXf3wUAAAAJ&hl=en"><img src="./pic/google_scholar.png" height="30px" style="margin-bottom:-3px"></a>
-					<a href="https://github.com/yulequan"><img src="./pic/github_s.jpg" height="30px" style="margin-bottom:-3px"></a>
-					<a href="https://orcid.org/0000-0002-9315-6527"><img src="./pic/orcid.jpeg" height="30px" style="margin-bottom:-3px"></a>
-					<a href="https://www.researchgate.net/profile/Lequan_Yu"><img src="./pic/rg.png" height="30px" style="margin-bottom:-3px"></a>
-					<a href="https://twitter.com/ylqzd2011"><img src="./pic/twitter.png" height="30px" style="margin-bottom:-3px"></a>
-					<a href="https://www.linkedin.com/in/lequan-yu-124811a2"><img src="./pic/LinkedIn_s.png" height="30px" style="margin-bottom:-3px"></a>
+				<p> <p class="contact"> 
+                              <span>Information: </span> <a target="_blank" href="https://github.com/liguangfa">GITHUB</a>
+                        </p>
 				</p>
 			</td>
 			<td>
@@ -55,4 +48,6 @@
 		</tr><tr>
 	</tr></tbody>
 </table>
+
+
 
