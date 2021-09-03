@@ -61,7 +61,7 @@
                             <div class="cv_image"> <img src="/amp+img.png"> </div>
                             <div class="cv_content">
                                 <h4 class="title">Remote heart rate detection based on rPPG amplification</h4>
-                                <h4 class="meta"><font color=#333>Guangfa Li</font></h4>
+                                <h4 class="meta">Guangfa Li</h5>
                                 <a href="https://github.com/liguangfa/rPPG">[GitHub]</a>
                             </div> 
                         </div>
