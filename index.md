@@ -1,23 +1,11 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html lang="en">
 <head>
 <link rel="shortcut icon" href="myIcon.ico">
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 
-<meta name="keywords" content="Lequan Yu, Yu Lequan, Lequan, HKU, University of Hong Kong, Stanford, CUHK, The Chinese University of Hong Kong, ZJU, Zhejiang University, Computer, Vision, Machine, Learning, Medical Image, Healthcare"> 
-<meta name="description" content="Lequan Yu is an Assistant Professor at HKU.">
-<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css">
-<title>Lequan Yu Homepage</title>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-87320911-1', 'auto');
-  ga('send', 'pageview');
+<meta name="keywords" content="Gunagfa Li, Li Guangfa, Guangfa, Guangzhou, South China University of Technology, SCUT, Sensing, Machine Learning, Medical Image, Healthcare"> 
+<meta name="description" content="Gunagfa Li is a postgraduate at SCUT.">
+<title>Gunagfa Li Homepage</title>
 
 </script>
 </head>
@@ -28,7 +16,6 @@
         <a href="#">Home</a>
         <a href="#experience">Experience</a>
         <a href="#publications">Publications</a>
-        <a href="#students">Students</a>
         <a href="#service">Service</a>
         <a href="#teaching">Teaching</a>
         <a href="">CV</a>
