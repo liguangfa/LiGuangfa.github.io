@@ -16,15 +16,16 @@
                     <div id="AKA"><h1>Guangfa Li</h1></div>
                     <h2></h2> 
                     <p>
-                        I am currently a postgraduate student in South China University of Technology (SCUT).
+                        “I am currently a postgraduate student in South China University of Technology (SCUT).”
                     </p>
                     <br>
                     <p>
-                        My research topic mainly focus on Medical image analysis with artifical intelligence, including physiological information monitoring, disease detection, 			 etc. The research methods are primarily based on designing machine learning algorithms capable of detecting challenging target features in medical images 			   with high precision. It includes, for example, self-supervised learning, feature-oriented label design, and efficient lightweight network design.
+                        “My research topic mainly focus on Medical image analysis with artifical intelligence, including physiological information monitoring, disease detection, 			             etc. The research methods are primarily based on designing machine learning algorithms capable of detecting challenging target features in medical images 			                with high precision. It includes, for example, self-supervised learning, feature-oriented label design, and efficient lightweight network design.”
                     </p>
                     <div id="contact-details">										
                         <p class="contact">
-                            <span>Email: </span> 201920100240@mail.scut.edu.cn; lixinwang006@gmail.com
+                            <span>Email: </span> 
+                            “201920100240@mail.scut.edu.cn; lixinwang006@gmail.com”
                         </p>
                         <p class="contact"> 
                             <span>Information: </span>  <a target="_blank" href="https://github.com/liguangfa">GitHub</a> 
