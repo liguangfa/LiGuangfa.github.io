@@ -1,72 +1,156 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel="shortcut icon" href="myIcon.ico">
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-
-<meta name="keywords" content="Gunagfa Li, Li Guangfa, Guangfa, Guangzhou, South China University of Technology, SCUT, Sensing, Machine Learning, Medical Image, Healthcare"> 
-<meta name="description" content="Gunagfa Li is a postgraduate at SCUT.">
-<title>Gunagfa Li Homepage</title>
-
-</head>
-<body>
-
-<nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-    <div id="layout-menu">
-        <a href="#">Home</a>
-        <a href="#experience">Experience</a>
-        <a href="#publications">Publications</a>
-        <a href="#service">Service</a>
-        <a href="#teaching">Teaching</a>
-        <a href="">CV</a>
-    </div>
-</nav>
-
-
-<table>
-	<tbody>
-		<tr>
-			<td width="670">
-				<div id="toptitle">					
-					<h1>Gunagfa Li</h1><h1>
-				</h1></div>
-
-				<p>
-                        	I am currently a postgraduate student in South China University of Technology (SCUT).
-                    		</p><br>
-				<p>
-					My research topic mainly focus on Medical image analysis with artifical intelligence, including physiological information monitoring, disease detection, etc. The research methods are primarily based on designing machine learning algorithms capable of detecting challenging target features in medical images with high precision. It includes, for example, self-supervised learning, feature-oriented label design, and efficient lightweight network design.
-			
-				</p>
-				<p class="contact">
+    <!-- head -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+        <meta charset="utf-8">
+        <title>Zhenchao Jin</title>
+        <link rel="stylesheet" href="./guangfa/style.css">
+        <script type="text/javascript">window.onerror=function(){return true;}</script>
+    </head>
+    <!-- body -->
+    <body>	
+        <div id="wrap">
+            <!-- head about me -->
+            <div id="header">
+                <div id="header-content">
+                    <div id="AKA"><h1>Guangfa Li</h1></div>
+                    <h2></h2> 
+                    <p>
+                        I am currently a postgraduate student in South China University of Technology (SCUT).
+                    </p><br>
+                    <p>
+                        My research topic mainly focus on Medical image analysis with artifical intelligence, including physiological information monitoring, disease detection, 			 etc. The research methods are primarily based on designing machine learning algorithms capable of detecting challenging target features in medical images 			   with high precision. It includes, for example, self-supervised learning, feature-oriented label design, and efficient lightweight network design.
+                    </p>
+                    <div id="contact-details">										
+                        <p class="contact">
                             <span>Email: </span> 201920100240@mail.scut.edu.cn; lixinwang006@gmail.com
-                        	</p>
-				<p> <p class="contact"> 
-                              <span>Information: </span> <a target="_blank" href="https://github.com/liguangfa">GITHUB</a>
-                        	</p>
-				</p>
-			</td>
-			<td>
-				<img src="/amp8.png" border="0" width="200"><br>
-			</td>
-		</tr><tr>
-	</tr></tbody>
-</table>
-
-
-<!-- line -->
-<div class="line"></div>
-<div class="line"></div>
-<!-- main body -->
-<div id="content">
-<div id="experience" class="cv-section">
-    <!-- Education -->
-    <h3> Education</h3>
-	<li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-	    2019.9-2022.6 South China University of Technology (SCUT) 
-	</li>
-	<li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-	    2015.9-2019.6 Southwest Jiaotong University (SJU)
-	</li>
-    <br>
-    <!-- line -->
+                        </p>
+                        <p class="contact"> 
+                            <span>Information: </span>  <a target="_blank" href="https://github.com/liguangfa">GitHub</a> 
+                        </p>
+                    </div>
+                </div>
+                <div id="header-photo">
+                    <img src="/amp8.png">
+                </div>
+            </div>
+            <!-- line -->
+            <div class="line"></div>
+            <div class="line"></div>
+            <!-- main body -->
+            <div id="content">
+                <div id="experience" class="cv-section">
+                    <!-- Education -->
+                    <h3> Education</h3>
+                        <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
+                            2019.9-2022.6 South China University of Technology (SCUT), Mechatronics and Sensing Laboratory </a>.
+                        </li>
+                        <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
+                            2015.9-2019.6 Southwest Jiaotong University (SJU)</a>.
+                        </li>
+                    <br>
+                    <!-- line -->
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <!-- Projects -->
+                    <h3>Publication</h3>
+                        <div class="cv-section-item"> 
+                            <div class="cv_image"> <img src="./zhenchao/iccv2021/mcibi.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title">Mining Contextual Information Beyond Image for Semantic Segmentation</h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>, Tao Gong, Dongdong Yu, Qi Chu, Jian Wang, Changhu Wang, Jie Shao.</h4>
+                                <h4 class="meta"><b> International Conference on Computer Vision (ICCV), poster, 2021.</b></h4>
+                                <a href="https://arxiv.org/pdf/2108.11819.pdf">[download]</a>
+                            </div> 
+                        </div>
+                    <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/iccv2021/isnet.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title">ISNet: Integrate Image-Level and Semantic-Level Context for Semantic Segmentation</h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>, Bin Liu, Qi Chu, Nenghai Yu.</h4>
+                                <h4 class="meta"><b> International Conference on Computer Vision (ICCV), poster, 2021.</b></h4>
+                                <a href="https://arxiv.org/pdf/2108.12382.pdf">[download]</a>
+                            </div>
+                        </div>
+                    <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/icme2021/icme2021.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title">Content-Independent Online Handwriting Verification Based on Multi-Modal Fusion</h4>
+                                <h4 class="meta">Nan Ji, Bin Liu, Zhiwei Zhao, Yan Lu, Qi Chu, <font color=#333>Zhenchao Jin</font>, Nenghai Yu. </h4>
+                                <h4 class="meta"><b> IEEE International Conference on Multimedia and Expo (ICME), oral, 2021.</b></h4>
+                                <a href="https://ieeexplore.ieee.org/document/9428239">[download]</a>
+                            </div>
+                        </div>
+                    <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/tip2020/safnet.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title">SAFNet: A Semi-Anchor-Free Network With Enhanced Feature Pyramid for Object Detection</h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>, Bin Liu, Qi Chu, Nenghai Yu.</h4>
+                                <h4 class="meta"><b> IEEE Transactions on Image Processing (TIP), vol. 29, pp. 9445-9457.</b></h4>
+                                <a href="https://ieeexplore.ieee.org/document/9216499">[download]</a>
+                            </div>
+                        </div>
+                    <!-- line -->
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <!-- Competition -->
+                    <h3>Competition</h3>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/iccvw2021/vspw.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title"><a href="https://competitions.codalab.org/competitions/30712#results">The 1st Video Scene Parsing in the Wild Challenge Workshop</a></h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>, DongDong Yu, Kai Su, Zehuan Yuan, Changhu Wang.</h4>
+                                <h4 class="meta">International Conference on Computer Vision Workshop (ICCVW), the 2nd place, 2021. </h4>
+                                <a href="https://arxiv.org/pdf/2109.00373.pdf">[download]</a>
+                            </div>
+                        </div>
+                    <!-- line -->
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <!-- Project -->
+                    <h3>Project</h3>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/projects/games.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title"><a href="https://github.com/CharlesPikachu/Games">Games: Create interesting games by pure python [3.2K stars]</a></h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>.</h4>
+                                <h4 class="meta">GitHub repository, 2020. </h4>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/projects/decryptlogin.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title"><a href="https://github.com/CharlesPikachu/DecryptLogin">DecryptLogin: APIs for loginning some websites by using requests [1.7K stars]</a></h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>.</h4>
+                                <h4 class="meta">GitHub repository, 2020. </h4>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/projects/musicdl.jpg"> </div>
+                            <div class="cv_content">
+                                <h4 class="title"><a href="https://github.com/CharlesPikachu/musicdl">musicdl: A lightweight music downloader written by pure python [0.7K stars]</a></h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>.</h4>
+                                <h4 class="meta">GitHub repository, 2020. </h4>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                        <div class="cv-section-item">
+                            <div class="cv_image"> <img src="./zhenchao/projects/ssseg.png"> </div>
+                            <div class="cv_content">
+                                <h4 class="title"><a href="https://github.com/SegmentationBLWX/sssegmentation">SSSegmentation: A general framework for strongly supervised semantic segmentation [0.2K stars]</a></h4>
+                                <h4 class="meta"><font color=#333>Zhenchao Jin</font>.</h4>
+                                <h4 class="meta">GitHub repository, 2020. </h4>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
 
