@@ -17,7 +17,8 @@
                     <h2></h2> 
                     <p>
                         I am currently a postgraduate student in South China University of Technology (SCUT).
-                    </p><br>
+                    </p>
+                    <br>
                     <p>
                         My research topic mainly focus on Medical image analysis with artifical intelligence, including physiological information monitoring, disease detection, 			 etc. The research methods are primarily based on designing machine learning algorithms capable of detecting challenging target features in medical images 			   with high precision. It includes, for example, self-supervised learning, feature-oriented label design, and efficient lightweight network design.
                     </p>
@@ -64,6 +65,6 @@
                                 <a href="https://github.com/liguangfa/rPPG">[GitHub]</a>
                             </div> 
                         </div>
-    </body>
+
 
 
