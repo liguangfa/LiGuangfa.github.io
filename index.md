@@ -44,10 +44,10 @@
                     <!-- Education -->
                     <h3> Education</h3>
                         <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-                            2019.9-2022.6 South China University of Technology (SCUT), Mechatronics and Sensing Laboratory </a>.
+                            2019.9-2022.6 South China University of Technology (SCUT), Mechatronics and Sensing Laboratory.
                         </li>
                         <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-                            2015.9-2019.6 Southwest Jiaotong University (SJU)</a>.
+                            2015.9-2019.6 Southwest Jiaotong University (SJU).
                         </li>
                     <br>
     
