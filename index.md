@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
     <!-- head -->
     <head>
@@ -65,9 +64,6 @@
                                 <a href="https://github.com/liguangfa/rPPG">[GitHub]</a>
                             </div> 
                         </div>
-                </div>
-            </div>
-        </div>
     </body>
-</html>
+
 
