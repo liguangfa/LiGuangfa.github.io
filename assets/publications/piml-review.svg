@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260">
+  <rect width="440" height="260" fill="#f1eee6"/>
+  <circle cx="220" cy="125" r="54" fill="#1e6977"/>
+  <text x="220" y="134" text-anchor="middle" fill="#fff" font-family="Arial" font-size="24" font-weight="700">PIML</text>
+  <g fill="#d9583b" font-family="Arial" font-size="15" font-weight="700">
+    <rect x="35" y="45" width="105" height="42" rx="4" fill="#fff" stroke="#d9583b" stroke-width="2"/><text x="87" y="71" text-anchor="middle">DATA</text>
+    <rect x="300" y="45" width="105" height="42" rx="4" fill="#fff" stroke="#d9583b" stroke-width="2"/><text x="352" y="71" text-anchor="middle">PHYSICS</text>
+    <rect x="35" y="174" width="105" height="42" rx="4" fill="#fff" stroke="#d9583b" stroke-width="2"/><text x="87" y="200" text-anchor="middle">DESIGN</text>
+    <rect x="300" y="174" width="105" height="42" rx="4" fill="#fff" stroke="#d9583b" stroke-width="2"/><text x="352" y="200" text-anchor="middle">CONTROL</text>
+  </g>
+  <g stroke="#1e6977" stroke-width="3"><path d="M140 78L173 101M300 78L267 101M140 188L174 151M300 188L267 151"/></g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260">
+  <rect width="440" height="260" fill="#263e46"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M-20 62C71 4 118 121 207 62S353 7 465 73" stroke="#e9c46a" stroke-width="10"/>
+    <path d="M-25 112C65 49 134 174 222 112S355 55 469 123" stroke="#e76f51" stroke-width="8"/>
+    <path d="M-30 166C58 101 131 229 219 165S353 109 470 175" stroke="#7fc8a9" stroke-width="11"/>
+    <path d="M-17 215C78 158 128 260 223 211S356 163 460 221" stroke="#f4a261" stroke-width="7"/>
+  </g>
+  <g fill="#fff"><circle cx="82" cy="41" r="5"/><circle cx="178" cy="91" r="5"/><circle cx="288" cy="75" r="5"/><circle cx="354" cy="160" r="5"/></g>
+  <text x="22" y="245" fill="#fff" font-family="Arial" font-size="19" font-weight="700">ANISOTROPIC FIBROUS TISSUE</text>
+</svg>

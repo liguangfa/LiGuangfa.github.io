@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260">
+  <rect width="440" height="260" fill="#e9e4dc"/>
+  <path d="M230 38C157 38 114 82 114 136C114 183 150 215 207 215H249C300 215 333 183 333 137C333 80 292 38 230 38Z" fill="#d56c66"/>
+  <g fill="none" stroke="#fff" stroke-width="5" opacity=".8">
+    <path d="M159 91C190 68 211 95 199 123C188 149 219 169 239 145C259 120 288 135 294 167"/>
+    <path d="M137 139C169 121 184 146 173 173M232 55C250 80 230 97 244 118C258 140 290 102 313 123"/>
+    <path d="M199 48C183 77 207 84 218 104M260 195C246 171 267 154 287 180"/>
+  </g>
+  <g fill="#2c7680"><circle cx="159" cy="91" r="7"/><circle cx="199" cy="123" r="7"/><circle cx="239" cy="145" r="7"/><circle cx="294" cy="167" r="7"/></g>
+  <text x="220" y="242" text-anchor="middle" fill="#263238" font-family="Arial" font-size="19" font-weight="700">WHITE MATTER STIFFNESS MAP</text>
+</svg>

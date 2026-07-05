@@ -1,83 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <!-- head -->
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
-        <meta charset="utf-8">
-        <title>Guangfa Li</title>
-        <link rel="stylesheet" href="./zhenchao/style.css">
-        <script type="text/javascript">window.onerror=function(){return true;}</script>
-    </head>
-    <!-- body -->
-    <body>	
-        <div id="wrap">
-            <!-- head about me -->
-            <div id="header">
-                <div id="header-content">
-                    <div id="AKA"><h1>Guangfa Li</h1></div>
-                    <h2></h2> 
-                    <p>
-                        I am currently a postgraduate student in South China University of Technology (SCUT).
-                    </p><br>
-                    <p>
-                        My primary research interests are in the application of machine learning in medical detection, sensing, surveying, as well as the intersection of motion 
-                        control and machine learning. At the same time, I am very interested in the development of algorithms to solve image data problems, such as self-supervised
-                        learning, feature-oriented label design, and efficient lightweight network design.
-                    </p>
-                    <div id="contact-details">										
-                        <p class="contact">
-                            <span>Email: </span> 201920100240@mail.scut.edu.cn; lixinwang006@gmail.com
-                        </p>
-                        <p class="contact"> 
-                            <span>Information: </span> <a target="_blank" href="https://github.com/liguangfa">GitHub</a>
-                        </p>
-                    </div>
-                </div>
-                <div id="header-photo">
-                    <img src="/formal_pic2.jpg">
-                </div>
-            </div>
-            <!-- line -->
-            <div class="line"></div>
-            <div class="line"></div>
-            <!-- main body -->
-            <div id="content">
-                <div id="experience" class="cv-section">
-                    <!-- Education -->
-                    <h3> Education</h3>
-                        <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-                            2019.9-2022.6 South China University of Technology (SCUT), Mechatronics and Sensing Laboratory.
-                        </li>
-                        <li style="list-style-type:square; margin-left:20px; margin-bottom:5px; display:list-item">
-                            2015.9-2019.6 Southwest Jiaotong University (SJU).
-                        </li>
-                    <br>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Guangfa Li - PhD candidate working on AI for Science, scientific machine learning, simulation, and engineering design." />
+  <title>Guangfa Li | AI for Science & Engineering</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <a class="site-name" href="#about">Guangfa Li</a>
+      <button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a><a href="#background">Background</a><a href="#impact">Impact</a>
+        <a href="#publications">Publications</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-                    <!-- line -->
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <!-- Project -->
-                    <h3>Projects</h3>
-                        <div class="line"></div>
-                        <div class="cv-section-item">
-                            <div class="cv_image"> <img src="/amp+img.png"> </div>
-                            <div class="cv_content">
-                                <h4 class="title"><a href="https://github.com/liguangfa/rPPG">rPPG: Remote heart rate detection based on rPPG amplification</a></h4>
-                                <h4 class="meta"><font color=#333>Guangfa Li</font>.</h4>
-                                <h4 class="meta">GitHub repository, 2021. </h4>
-                            </div>
-                        </div>
-                        <div class="line"></div>
-                        <div class="cv-section-item">
-                            <div class="cv_image"> <img src="/A-PLAN.png"> </div>
-                            <div class="cv_content">
-                                <h4 class="title"><a href="https://github.com/liguangfa/Smart-Wheelchair">Route planning and obstacle avoidance of smart wheelchairs in real world</a></h4>
-                                <h4 class="meta"><font color=#333>Bingyao Li, Guangfa Li</font>.</h4>
-                                <h4 class="meta">GitHub repository, 2020. </h4>
-                            </div>
-                        </div>
-                </div>
-            </div>
+  <main>
+    <section class="intro-section" id="about">
+      <div class="shell intro-grid">
+        <aside class="profile">
+          <img class="profile-photo" src="formal_pic2.jpg" alt="Portrait of Guangfa Li" />
+          <h1>Guangfa Li</h1>
+          <p>PhD Candidate</p>
+          <p>Binghamton University</p>
+          <div class="social-links" aria-label="Professional profiles">
+            <a href="https://github.com/liguangfa" target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub"><img src="https://cdn.simpleicons.org/github/087DB8" alt="" /></a>
+            <a href="https://scholar.google.com/citations?hl=en&user=qLLzXzQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer" aria-label="Google Scholar" title="Google Scholar"><img src="https://cdn.simpleicons.org/googlescholar/087DB8" alt="" /></a>
+            <a href="mailto:gli12@binghamton.edu" aria-label="Binghamton email" title="gli12@binghamton.edu"><img src="https://cdn.simpleicons.org/gmail/087DB8" alt="" /></a>
+          </div>
+        </aside>
+
+        <div class="about-copy">
+          <h2>About Me</h2>
+          <p>I am a Mechanical Engineering PhD candidate at <a href="https://www.binghamton.edu/" target="_blank" rel="noreferrer">Binghamton University</a>, developing machine learning methods for engineering simulation and design. My core strength is combining hands-on expertise in <strong>simulation, finite element analysis, and physical modeling</strong> with scientific machine learning.</p>
+          <p>Beyond algorithm development, I build end-to-end engineering workflows: from raw simulation or experimental data and model development to physical validation and integration into engineering analysis and design. My work has produced peer-reviewed research across structures, materials, manufacturing, and fluid systems.</p>
+          <p class="focus-label">Core expertise</p>
+          <ul class="focus-list">
+            <li><strong>Engineering Simulation &amp; FEA</strong><span>Structural, materials, manufacturing, fluid, and multiphysics modeling.</span></li>
+            <li><strong>Scientific Machine Learning</strong><span>PDE surrogates, neural operators, and physics-informed learning.</span></li>
+            <li><strong>End-to-End Engineering ML</strong><span>Data generation, model development, physical validation, and engineering integration.</span></li>
+            <li><strong>AI for Engineering Design</strong><span>Generative models, inverse design, optimization, and uncertainty-aware prediction.</span></li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </section>
+
+    <section class="background-section" id="background">
+      <div class="shell background-grid">
+        <div id="education">
+          <h2 class="section-title">Education</h2>
+          <div class="compact-list">
+            <article><span class="list-icon" aria-hidden="true">&#127891;</span><div><h3>PhD Candidate in Mechanical Engineering</h3><p class="date">Current</p><p>Binghamton University, USA</p><small>AI for Science and Engineering</small></div></article>
+            <article><span class="list-icon" aria-hidden="true">&#127891;</span><div><h3>Master's Degree in Mechanical Engineering</h3><p class="date">2019 - 2022</p><p>South China University of Technology</p><small>Mechatronics and Sensing Laboratory</small></div></article>
+            <article><span class="list-icon" aria-hidden="true">&#127891;</span><div><h3>Bachelor's Degree in Mechanical Engineering</h3><p class="date">2015 - 2019</p><p>Southwest Jiaotong University</p></div></article>
+          </div>
+        </div>
+
+        <div class="career-column">
+          <section id="experience">
+            <h2 class="section-title">Research &amp; Engineering Experience</h2>
+            <ul class="experience-list">
+              <li><strong>Engineering Simulation &amp; Modeling</strong><span>FEA / Multiphysics</span><p>Develop finite element and multiphysics models for structures, materials, manufacturing, and transport problems, including simulation setup, data generation, calibration, and validation.</p></li>
+              <li><strong>Scientific Machine Learning</strong><span>Python / PyTorch</span><p>Build surrogate models and neural operators for engineering field prediction under full-data, sparse-data, and physics-constrained settings.</p></li>
+              <li><strong>End-to-End Engineering Workflows</strong><span>Data to Application</span><p>Transform raw simulation and experimental data into validated ML solutions through data processing, model training, error analysis, physical verification, and engineering integration.</p></li>
+            </ul>
+          </section>
+          <section class="impact-block" id="impact">
+            <h2 class="section-title">Research Impact</h2>
+            <ul class="impact-list">
+              <li>Published research in <em>Engineering Structures</em>, <em>Neurocomputing</em>, <em>Physical Biology</em>, <em>Journal of Manufacturing Processes</em>, and <em>JCISE</em>.</li>
+              <li>Research spanning structural and material systems, manufacturing, fluid-field prediction, PDE surrogate modeling, and inverse design.</li>
+              <li>Demonstrated ability to connect simulation, data, machine learning, and engineering application within a complete technical workflow.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="publication-section" id="publications">
+      <div class="shell">
+        <div class="section-header">
+          <h2>Selected Publications</h2>
+          <a class="text-link" href="https://scholar.google.com/citations?hl=en&user=qLLzXzQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer">View Google Scholar</a>
+        </div>
+
+        <div class="publication-list">
+          <h3 class="year-heading">2026</h3>
+          <article class="publication-item current-project">
+            <div class="flow-visual">
+              <canvas id="flow-canvas" width="640" height="360" aria-label="Interactive airfoil pressure field"></canvas>
+              <div class="flow-controls">
+                <label for="flow-angle">Angle</label>
+                <input id="flow-angle" type="range" min="-4" max="14" value="4" step="1" />
+                <output id="flow-readout">4 deg</output>
+              </div>
+            </div>
+            <div>
+              <p class="publication-meta">Current Research Project | Scientific Machine Learning</p>
+              <h3>GeoTransolver for aerodynamic field prediction</h3>
+              <p>Geometry-aware neural operators for pressure and velocity prediction around irregular airfoils, including full-data, sparse-data, and physics-constrained training.</p>
+            </div>
+          </article>
+
+          <article class="publication-item current-project">
+            <div class="grain-visual">
+              <canvas id="grain-canvas" width="640" height="360" aria-label="Interactive grain evolution field"></canvas>
+              <div class="grain-controls">
+                <label for="grain-step">Time</label>
+                <input id="grain-step" type="range" min="0" max="100" value="0" step="1" aria-label="Grain evolution time step" />
+                <output id="grain-readout">t = 0</output>
+              </div>
+            </div>
+            <div>
+              <p class="publication-meta">Current Research Project | Physics-Constrained Bayesian Learning <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6177779" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>PCBNN: Physics-Constrained Bayesian Neural Network for Grain Evolution Prediction</h3>
+              <p>A physics-constrained Bayesian neural network for predicting grain evolution while quantifying model and prediction uncertainty.</p>
+            </div>
+          </article>
+
+          <h3 class="year-heading">2025</h3>
+          <article class="publication-item">
+            <a class="publication-figure-link" href="assets/publications/composite-design-fig3.png" target="_blank" rel="noreferrer" aria-label="Open the full conditional diffusion model figure">
+              <img src="assets/publications/composite-design-thumb.png" alt="Conditional U-Net sampling process for inverse design of composite materials" />
+            </a>
+            <div>
+              <p class="publication-meta">Engineering Structures 345, 121417 <a href="https://www.sciencedirect.com/science/article/pii/S0141029625018085" target="_blank" rel="noreferrer">[Paper]</a> <a href="https://github.com/IMMDLab/Conditional-diffusion-model-for-structure-design" target="_blank" rel="noreferrer">[Code]</a></p>
+              <h3>Inverse design of composite materials with desired mechanical behaviors based on conditional diffusion model</h3>
+              <p class="authors"><strong>Guangfa Li</strong>, Dehao Liu</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <img class="publication-image-contain" src="assets/publications/piml-framework.png" alt="Physics-informed machine learning framework connecting inputs, neural networks, automatic differentiation, and physics-based losses" />
+            <div>
+              <p class="publication-meta">Journal of Computing and Information Science in Engineering 25(12), 120804 <a href="https://doi.org/10.1115/1.4070100" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>Physics-Informed Machine Learning in Design and Manufacturing: Status and Challenges</h3>
+              <p class="authors">Longye Pan, <strong>Guangfa Li</strong>, Tong Zhu, Dehao Liu, Yan Wang, Yanglong Lu</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <img src="assets/publications/porosity-paper.jpg" alt="Physics-constrained dictionary learning workflow from the porosity estimation paper" />
+            <div>
+              <p class="publication-meta">Journal of Manufacturing Processes 145, 286-299 <a href="https://www.sciencedirect.com/science/article/pii/S1526612525004633" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>Multi-task physics-constrained dictionary learning for efficient estimation of porosity distribution in laser powder bed fusion of copper</h3>
+              <p class="authors">Longye Pan, <strong>Guangfa Li</strong>, Xin Zhang, Jinze Cheng, Dehao Liu, Yanglong Lu</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <img src="assets/publications/pde-paper.jpg" alt="PhyCRNet architecture from the spatial-temporal PDE solver paper" />
+            <div>
+              <p class="publication-meta">Neurocomputing 634, 129917 <a href="https://www.sciencedirect.com/science/article/pii/S0925231225005892" target="_blank" rel="noreferrer">[Paper]</a> <a href="https://github.com/IMMDLab/PhyCRNet_FDM" target="_blank" rel="noreferrer">[Code]</a></p>
+              <h3>Solving spatial-temporal PDEs with arbitrary boundary conditions using physics-constrained convolutional recurrent neural networks</h3>
+              <p class="authors"><strong>Guangfa Li</strong>, Yanglong Lu, Dehao Liu</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <a class="publication-figure-link" href="assets/publications/mems-electrodes-full.png" target="_blank" rel="noreferrer" aria-label="Open the full 3D-printed stainless steel electrode figure">
+              <img src="assets/publications/mems-electrodes-thumb.png" alt="3D-printed stainless steel porous electrodes in four cubic sizes" />
+            </a>
+            <div>
+              <p class="publication-meta">IEEE MEMS 2025, 643-646 <a href="https://ieeexplore.ieee.org/abstract/document/10918293/" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>3D-Printed Stainless Steel Electrodes for Advancing MEMS Microbial Fuel Cells Toward Sustainable On-Chip Energy</h3>
+              <p class="authors">Anwar Elhadad, <strong>Guangfa Li</strong>, Jiaqi Yang, Dehao Liu, Seokheun Choi</p>
+            </div>
+          </article>
+
+          <h3 class="year-heading">2024</h3>
+          <article class="publication-item">
+            <a class="publication-figure-link" href="assets/publications/brain-stiffness-full.png" target="_blank" rel="noreferrer" aria-label="Open the full 3D ResNet architecture figure">
+              <img src="assets/publications/brain-stiffness-thumb.png" alt="3D ResNet architecture for predicting heterogeneous brain white matter stiffness" />
+            </a>
+            <div>
+              <p class="publication-meta">Physical Biology 21(6), 066004 <a href="https://iopscience.iop.org/article/10.1088/1478-3975/ad88e4/meta" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>A theoretical framework for predicting the heterogeneous stiffness map of brain white matter tissue</h3>
+              <p class="authors">Poorya Chavoshnejad, <strong>Guangfa Li</strong>, Akbar Solhtalab, Dehao Liu, Mir Jalil Razavi</p>
+            </div>
+          </article>
+
+          <article class="publication-item">
+            <a class="publication-figure-link publication-figure-link--phycrnet-results" href="assets/publications/phycrnet-burgers-results.png" target="_blank" rel="noreferrer" aria-label="Open the full Burgers equation velocity-field comparison">
+              <img src="assets/publications/phycrnet-burgers-results.png" alt="Ground-truth, PCNN, and PhyCRNet velocity-field comparisons for the Burgers equation" />
+            </a>
+            <div>
+              <p class="publication-meta">ASME IDETC-CIE 2024, V02AT02A020 <a href="https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-abstract/IDETC-CIE2024/88346/1208713" target="_blank" rel="noreferrer">[Paper]</a> <a href="https://github.com/IMMDLab/PhyCRNet_FDM" target="_blank" rel="noreferrer">[Code]</a></p>
+              <h3>Physics-Constrained Convolutional Recurrent Neural Networks for Solving Spatial-Temporal PDEs With Arbitrary Boundary Conditions</h3>
+              <p class="authors"><strong>Guangfa Li</strong>, Yanglong Lu, Dehao Liu</p>
+            </div>
+          </article>
+
+          <h3 class="year-heading">2023</h3>
+          <article class="publication-item">
+            <a class="publication-figure-link publication-figure-link--brain-tractography" href="assets/publications/mapping-stiffness-brain-tractography.png" target="_blank" rel="noreferrer" aria-label="Open the full brain white-matter tractography figure">
+              <img src="assets/publications/mapping-stiffness-brain-tractography.png" alt="Brain white-matter fiber tractography divided into eight local tissue cubes" />
+            </a>
+            <div>
+              <p class="publication-meta">Preprint <a href="https://europepmc.org/article/ppr/ppr758516" target="_blank" rel="noreferrer">[Paper]</a></p>
+              <h3>Mapping Stiffness Landscape of Heterogeneous and Anisotropic Fibrous Tissue</h3>
+              <p class="authors">Poorya Chavoshnejad, <strong>Guangfa Li</strong>, Dehao Liu, Mir Jalil Razavi</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="shell contact-grid"><div><h2>Contact</h2><p>Open to AI Engineer, Applied Scientist, Research Scientist, and Scientific ML opportunities.</p></div><div class="contact-links"><a href="https://github.com/liguangfa" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/github/ffffff" alt="" />GitHub</a><a href="mailto:gli12@binghamton.edu"><img src="https://cdn.simpleicons.org/gmail/ffffff" alt="" />Binghamton Email</a><a href="mailto:guangfa.gabriel.li@gmail.com"><img src="https://cdn.simpleicons.org/gmail/ffffff" alt="" />Gmail</a><a href="https://scholar.google.com/citations?hl=en&user=qLLzXzQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noreferrer"><img src="https://cdn.simpleicons.org/googlescholar/ffffff" alt="" />Scholar</a></div></div></section>
+  </main>
+  <footer><div class="shell"><span>Guangfa Li</span><span>AI for Science & Engineering</span><span id="year"></span></div></footer>
+  <script src="script.js"></script>
+</body>
 </html>

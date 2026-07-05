@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260">
+  <rect width="440" height="260" fill="#173d36"/>
+  <path d="M66 52H172V207H66Z" fill="#c6d66b"/><path d="M268 52H374V207H268Z" fill="#78c6b0"/>
+  <g fill="#173d36"><circle cx="93" cy="84" r="10"/><circle cx="139" cy="108" r="12"/><circle cx="99" cy="150" r="9"/><circle cx="148" cy="177" r="13"/></g>
+  <path d="M172 130H268" stroke="#fff" stroke-width="5"/><path d="M244 111L268 130L244 149" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M302 78H340L319 118H350L291 191L307 136H279Z" fill="#ffd65a"/>
+  <text x="220" y="238" text-anchor="middle" fill="#fff" font-family="Arial" font-size="20" font-weight="700">3D-PRINTED MICROBIAL ENERGY</text>
+</svg>
